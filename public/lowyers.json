@@ -6,10 +6,9 @@
     "specialty": "Criminal Law",
     "experience": "8+ years",
     "licenseNumber": "L-000123",
-    "Availability": "Sunday, Monday, Tusday",
+    "Availability": "Sunday, Monday, Tuesday",
     "ConsultationFee": "$200"
   },
-
   {
     "id": 2,
     "image": "https://i.ibb.co.com/7tJ4cmf6/istockphoto-104821087-1024x1024.jpg",
@@ -17,7 +16,7 @@
     "specialty": "Corporate Law",
     "experience": "10+ years",
     "licenseNumber": "L-000456",
-    "Availability": "Sunday, Monday, Tusday",
+    "Availability": "Sunday, Monday, Tuesday",
     "ConsultationFee": "$200"
   },
   {
@@ -27,7 +26,7 @@
     "specialty": "Family Law",
     "experience": "5+ years",
     "licenseNumber": "L-000789",
-    "Availability": "Sunday, Monday, Tusday",
+    "Availability": "Sunday, Monday, Tuesday",
     "ConsultationFee": "$200"
   },
   {
@@ -37,7 +36,7 @@
     "specialty": "Immigration Law",
     "experience": "7+ years",
     "licenseNumber": "L-000321",
-    "Availability": "Sunday, Monday, Tusday",
+    "Availability": "Sunday, Monday, Tuesday",
     "ConsultationFee": "$200"
   },
   {
@@ -47,7 +46,7 @@
     "specialty": "Intellectual Property",
     "experience": "6+ years",
     "licenseNumber": "L-000654",
-    "Availability": "Sunday, Monday, Seturday",
+    "Availability": "Sunday, Monday, Saturday",
     "ConsultationFee": "$200"
   },
   {
@@ -57,7 +56,67 @@
     "specialty": "Civil Litigation",
     "experience": "12+ years",
     "licenseNumber": "L-000987",
-    "Availability": "Sunday, Monday, wednesday",
+    "Availability": "Sunday, Monday, Wednesday",
     "ConsultationFee": "$200"
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/SXJgypxt/istockphoto-104821086-1024x1024.jpg",
+    "name": "Rachel Green",
+    "specialty": "Environmental Law",
+    "experience": "9+ years",
+    "licenseNumber": "L-001001",
+    "Availability": "Monday, Thursday, Friday",
+    "ConsultationFee": "$250"
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/7tJ4cmf6/istockphoto-104821087-1024x1024.jpg",
+    "name": "Thomas Lee",
+    "specialty": "Tax Law",
+    "experience": "11+ years",
+    "licenseNumber": "L-001002",
+    "Availability": "Tuesday, Thursday, Saturday",
+    "ConsultationFee": "$220"
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/v6mv7MLL/istockphoto-104821088-612x612.jpg",
+    "name": "Nina Patel",
+    "specialty": "International Law",
+    "experience": "6+ years",
+    "licenseNumber": "L-001003",
+    "Availability": "Monday, Wednesday, Friday",
+    "ConsultationFee": "$230"
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/8SzVk9X/istockphoto-184405276-612x612.jpg",
+    "name": "Robert Kim",
+    "specialty": "Employment Law",
+    "experience": "8+ years",
+    "licenseNumber": "L-001004",
+    "Availability": "Tuesday, Thursday, Saturday",
+    "ConsultationFee": "$210"
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/JFSW5hmL/istockphoto-537971813-1024x1024.jpg",
+    "name": "Olivia Brown",
+    "specialty": "Bankruptcy Law",
+    "experience": "7+ years",
+    "licenseNumber": "L-001005",
+    "Availability": "Sunday, Wednesday, Friday",
+    "ConsultationFee": "$200"
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/fdLhjHh6/istockphoto-538236447-612x612.jpg",
+    "name": "David Wilson",
+    "specialty": "Real Estate Law",
+    "experience": "10+ years",
+    "licenseNumber": "L-001006",
+    "Availability": "Monday, Wednesday, Saturday",
+    "ConsultationFee": "$250"
   }
 ]

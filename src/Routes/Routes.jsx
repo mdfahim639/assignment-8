@@ -6,6 +6,7 @@ import Home from '../Pages/Home/Home';
 import About from '../Pages/About/About';
 import LowyerDatils from '../components/LowyerDatils/LowyerDatils';
 import Lowyerlist from '../Pages/LowyerList/Lowyerlist';
+import Bookings from '../Pages/Lowyer/Bookings/Bookings';
 
 export const router = createBrowserRouter([
   {
@@ -32,6 +33,11 @@ export const router = createBrowserRouter([
         path: '/LowyerDatils/:id',
         loader: () => fetch('./lowyers.json'),
         Component: LowyerDatils,
+      },
+      {
+        path: '/Bookings',
+        loader: () => fetch('./lowyers.json'),
+        Component: Bookings,
       },
       {
         path: './ErrorPage',
