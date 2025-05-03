@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/SXJgypxt/istockphoto-104821086-1024x1024.jpg",
+    "name": "Sarah Thompson",
+    "specialty": "Criminal Law",
+    "experience": "8+ years",
+    "licenseNumber": "L-000123",
+    "Availability": "Sunday, Monday, Tusday",
+    "ConsultationFee": "$200"
+  },
+
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/7tJ4cmf6/istockphoto-104821087-1024x1024.jpg",
+    "name": "James Walker",
+    "specialty": "Corporate Law",
+    "experience": "10+ years",
+    "licenseNumber": "L-000456",
+    "Availability": "Sunday, Monday, Tusday",
+    "ConsultationFee": "$200"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/v6mv7MLL/istockphoto-104821088-612x612.jpg",
+    "name": "Alicia Keys",
+    "specialty": "Family Law",
+    "experience": "5+ years",
+    "licenseNumber": "L-000789",
+    "Availability": "Sunday, Monday, Tusday",
+    "ConsultationFee": "$200"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/8SzVk9X/istockphoto-184405276-612x612.jpg",
+    "name": "Daniel Smith",
+    "specialty": "Immigration Law",
+    "experience": "7+ years",
+    "licenseNumber": "L-000321",
+    "Availability": "Sunday, Monday, Tusday",
+    "ConsultationFee": "$200"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/JFSW5hmL/istockphoto-537971813-1024x1024.jpg",
+    "name": "Emily Davis",
+    "specialty": "Intellectual Property",
+    "experience": "6+ years",
+    "licenseNumber": "L-000654",
+    "Availability": "Sunday, Monday, Seturday",
+    "ConsultationFee": "$200"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/fdLhjHh6/istockphoto-538236447-612x612.jpg",
+    "name": "Michael Johnson",
+    "specialty": "Civil Litigation",
+    "experience": "12+ years",
+    "licenseNumber": "L-000987",
+    "Availability": "Sunday, Monday, wednesday",
+    "ConsultationFee": "$200"
+  }
+]
