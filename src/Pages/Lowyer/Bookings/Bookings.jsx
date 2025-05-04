@@ -52,18 +52,25 @@ const Bookings = () => {
           </Link>
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-4 max-w-2xl mx-auto">
+        <div className="grid grid-cols-1 gap-4  mx-auto">
           {lowyerlist.map(item => (
-            <div
-              key={item.id}
-              className="border p-4 rounded-xl shadow-lg flex flex-col gap-2"
-            >
-              <h3 className="text-xl font-bold">{item.name}</h3>
-              <p className="text-gray-700">Specialty: {item.specialty}</p>
-              <p className="text-gray-700">Fee: {item.ConsultationFee}</p>
+            <div key={item.id} className=" p-4  shadow-lg flex flex-col gap-2">
+              <div className=" flex gap-3 justify-between border-b border-dotted  p-4">
+                <div>
+                  <h3 className="text-xl font-bold">{item.name}</h3>
+                  <p className="text-gray-700">Specialty: {item.specialty}</p>
+                </div>
+
+                <p className="text-gray-700">Fee: {item.ConsultationFee}</p>
+              </div>
+              <p className="mt-2 text-red-300 bg-amber-200 p-2 rounded-lg">
+                Due to high business of lawyer, we are currently accepting
+                appointment for only today.We appreciate your understanding and
+                cooperation
+              </p>
               <button
                 onClick={() => handleCancel(item.id)}
-                className="btn bg-red-500 text-white w-fit p-2 rounded-lg"
+                className="btn hover:bg-red-500 w-full p-2 rounded-lg"
               >
                 Cancel Appointment
               </button>

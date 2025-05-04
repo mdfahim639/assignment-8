@@ -43,7 +43,7 @@ const LowyerDatils = () => {
 
         <button
           onClick={handleBookAppointment}
-          className="btn bg-blue-500 text-white px-4 py-2 rounded-lg mt-4"
+          className="btn w-full hover:bg-blue-500 px-4 py-2 rounded-lg mt-4"
         >
           Book Appointment
         </button>

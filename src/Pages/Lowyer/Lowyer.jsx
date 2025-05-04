@@ -26,7 +26,9 @@ const Lowyer = ({ singleLowyer }) => {
             license No: {singleLowyer.licenseNumber}
           </p>
           <Link to={`/LowyerDatils/${singleLowyer.id}`}>
-            <button className="btn">View Details</button>
+            <button className="btn w-full hover:bg-gray-400">
+              View Details
+            </button>
           </Link>
         </div>
       </div>

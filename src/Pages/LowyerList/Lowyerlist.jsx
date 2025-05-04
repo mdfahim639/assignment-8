@@ -18,7 +18,6 @@ const Lowyerlist = () => {
     removeStoredLowyer(id);
     const updatedList = lowyerlist.filter(lowyer => lowyer.id !== id);
     setLowyerList(updatedList);
-    alert('❌ Appointment canceled successfully!');
   };
 
   return (
@@ -32,6 +31,7 @@ const Lowyerlist = () => {
             Our platform connects you with verified, experienced lawyers across
             various specialties — all at your convenience.
           </p>
+
           <Link to="/">
             <button className="btn mt-6 bg-green-500 text-white rounded-2xl p-3">
               Book an Appointment
