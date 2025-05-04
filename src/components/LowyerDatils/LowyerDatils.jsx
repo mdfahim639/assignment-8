@@ -23,6 +23,7 @@ const LowyerDatils = () => {
     addStoredData(lowyerId);
     toast.success('✅ Appointment booked successfully!');
     navigate('/Bookings');
+    window.dispatchEvent(new Event('storage'));
   };
 
   return (
@@ -39,8 +40,6 @@ const LowyerDatils = () => {
         <p className="font-semibold">{ConsultationFee}</p>
         <h2>Availability : {Availability}</h2>
         <p className="font-semibold">license No: {licenseNumber}</p>
-
-        {/* About Button with alert */}
 
         <button
           onClick={handleBookAppointment}

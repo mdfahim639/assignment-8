@@ -1,28 +1,39 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLoaderData } from 'react-router';
-import { getStoredLowyer } from '../../../Utilitys/Utilitys';
+import {
+  getStoredLowyer,
+  removeStoredLowyer,
+} from '../../../Utilitys/Utilitys';
 
 const Bookings = () => {
   const [lowyerlist, setLowyerList] = useState([]);
   const data = useLoaderData();
 
   useEffect(() => {
-    if (!Array.isArray(data)) {
-      console.error('Expected array but got:', data);
-      return;
-    }
+    const updateAppointments = () => {
+      if (!Array.isArray(data)) {
+        console.error('Loader data is not an array:', data);
+        setLowyerList([]);
+        return;
+      }
 
-    const storedLowyerData = getStoredLowyer().map(id => parseInt(id));
-    const bookedLowyers = data.filter(lowyer =>
-      storedLowyerData.includes(lowyer.id)
-    );
-    setLowyerList(bookedLowyers);
+      const storedLowyerData = getStoredLowyer().map(id => parseInt(id));
+      const bookedLowyers = data.filter(lowyer =>
+        storedLowyerData.includes(lowyer.id)
+      );
+      setLowyerList(bookedLowyers);
+    };
+
+    updateAppointments();
+    window.addEventListener('appointmentUpdated', updateAppointments);
+
+    return () => {
+      window.removeEventListener('appointmentUpdated', updateAppointments);
+    };
   }, [data]);
 
   const handleCancel = id => {
-    const updated = lowyerlist.filter(item => item.id !== id);
-    setLowyerList(updated);
-    localStorage.setItem('appointments', JSON.stringify(updated));
+    removeStoredLowyer(id);
   };
 
   return (
